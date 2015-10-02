@@ -28,5 +28,4 @@ end
 # second_book = Book.new('Cell', 'Stephen King')
 # my_library.add_book(my_book)
 # my_library.add_book(second_book)
-# binding.pry
-# p my_library.books[0].title
+
