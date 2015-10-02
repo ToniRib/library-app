@@ -26,4 +26,9 @@ RSpec.describe Library do
     @library.remove_book_by_index(0)
     expect(@library.books).to be_empty
   end
+
+  it 'can remove a book by title' do
+    @library.remove_book_by_title('The Gunslinger')
+    expect(@library.books).to be_empty
+  end
 end
